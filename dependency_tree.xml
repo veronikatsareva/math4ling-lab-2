@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <phrase> <head pos="VERB" deprel="root">люблю</head>
+        <dependent pos="PRON" deprel="nsubj">Я</dependent>
+        <dependent pos="ADV" deprel="advmod">очень</dependent>
+        <phrase> <head pos="VERB" deprel="xcomp">пить</head>
+            <phrase> <head pos="NOUN" deprel="obj">кофе</head>
+                <dependent pos="ADJ" deprel="amod">холодный</dependent>
+                <phrase> <head pos="NOUN" deprel="nmod">льдом</head>
+                    <dependent pos="ADP" deprel="case">со</dependent>
+                    <phrase> <head pos="NOUN" deprel="conj">сиропом</head>
+                        <dependent pos="CCONJ" deprel="cc">и</dependent>
+                        <dependent pos="ADJ" deprel="amod">карамельным</dependent>
+                    </phrase>
+                </phrase>
+            </phrase>
+            <phrase> <head pos="NOUN" deprel="obl">утрам</head>
+                <dependent pos="ADP" deprel="case">по</dependent>
+            </phrase>
+        </phrase>
+        <phrase> <head pos="VERB" deprel="advcl">иду</head>
+            <dependent pos="PUNCT" deprel="punct">,</dependent>
+            <dependent pos="SCONJ" deprel="mark">пока</dependent>
+            <phrase> <head pos="NOUN" deprel="obl">университет</head>
+                <dependent pos="ADP" deprel="case">в</dependent>
+            </phrase>
+            <phrase> <head pos="NOUN" deprel="obl">паре</head>
+                <dependent pos="ADP" deprel="case">к</dependent>
+                <dependent pos="ADJ" deprel="amod">первой</dependent>
+            </phrase>
+        </phrase>
+        <dependent pos="PUNCT" deprel="punct">.</dependent>
+    </phrase>
+</root>
